@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+  <html lang="fr">
+    <head>
+      <meta charset="UTF-8">
+      <title>Mon portfolio</title>
+      <link rel="stylesheet" href="commun.css"> <!-- Feuille de style principale -->
+      <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+
+        <!-- 
+          Barre de navigation principale.
+          À noter : le lien actif contient un nom de classe "actif"
+        -->
+      <header>
+        <nav>
+          <ul>
+            <li><a class="actif" href="index.html">Accueil</a></li>
+            <li><a href="qui-suis-je.html">Qui-suis-je ?</a></li>
+            <li class="dropdown">
+              <a href="projets.html">Mes projets</a>
+              <div class="dropdown-content">
+                <a href="mes-projets-détaillés.html">Mes projets détaillés</a>
+              </div>
+            </li>
+            <li><a href="me-contacter.html">Me contacter</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <h1>Bienvenue sur mon portfolio</h1>
+        <div>
+        <img id="img_moi" src="./img/user.png" alt="Image de moi-même">
+          <p>Vous pourrez trouver sur ce site web
+            mes projets faits pendant ma première année de BUT
+             et mes projets personnels. <br>
+            Les projets se font au file du temps, alors ne soyez pas étonnés si mon portfolio change de temps en temps.
+        </p>
+
+        <p class="plus_gros">Bonne visite !</p>
+        </div>
+        
+      </main>
+    </body>
+  </html>

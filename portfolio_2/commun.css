@@ -1,0 +1,139 @@
+/*
+body
+*/
+
+body {
+  font-family: "Helvetica";
+  height: 100%;
+  margin: 0px;
+  background-image : url(bg-198-198.png);
+}
+
+/*------------------------------------------------------*/
+
+header{
+    margin: 0;
+    padding:0;
+  }
+
+header nav{
+    height: 100%;
+    padding: 0;
+    margin-left: 50%;
+    margin-right: 40px;
+    border-style: solid;
+    border-color : rgb(0, 0, 0);
+    border-width: 1px;
+    border-right: 0;
+    border-top: 0;
+    
+}  
+
+header ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    height: 100%;
+}
+
+header ul li {
+  flex-basis: 200px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    text-align: center;
+}
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+header ul li a {
+    display: block;
+    color: black;
+    font-size: large;
+    background-color: azure;
+}
+
+header ul li a:hover {
+  background-color: bisque;
+}
+
+a{
+  text-decoration: none;
+  padding: 1em 2em 1em 2em;
+  color: black;
+}
+
+header ul li a :hover{
+  transition: 2s;
+  text-shadow: #f9f9f9;
+}
+
+.actif {
+    background-color: rgb(255, 255, 255);
+    border-width: 5px;
+    border-color: rgb(255, 132, 0);
+    border-style: solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+  }
+
+  /*------------------------------------------------------*/
+
+  h1{
+    font-size: 46px;
+    margin-left: 10%;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    border-style: groove;
+    border-color : grey;
+    border-width: 7px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+main{
+    margin: 10%;
+}
+
+
+/* Style du contenu du menu déroulant */
+.dropdown-content {
+  display :none;  /*à remettre à none */
+  position: absolute;
+
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Style des liens du menu déroulant */
+.dropdown-content a {
+  color: black;
+  box-sizing: border-box;
+}
+
+/* Style des liens du menu déroulant au survol */
+.dropdown-content a:hover {
+  background-color: bisque;
+  color: rgb(0, 0, 0);
+}
+
+header nav ul li ul{
+  width: inherit;
+}
+
+.dropdown{
+  width: inherit;
+}
+
+/* Afficher le menu déroulant lorsque le lien est survolé */
+.dropdown:hover .dropdown-content {
+  display:block;
+  box-sizing: border-box;
+  position: absolute;
+  width: 12%;
+}

@@ -1,0 +1,49 @@
+/*-- Spécifique à la page projets --*/
+
+main div{
+    display: flex;
+    justify-content: space-around;
+    gap:40px;
+    flex-wrap: wrap;
+}
+
+main div div{
+    border: 2px solid black;
+    padding: 20px;
+
+}
+
+
+
+.image_proj{
+    margin : auto;
+}
+img{
+    width: 300px;
+}
+
+.projet{
+    position: relative;
+    flex-basis: 300px;
+}
+
+.badge {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border : 1px solid blue;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+}
+
+.projet p{
+    box-sizing: border-box;
+}
+
+.projet figure{
+    align-self: center;
+}
+
+figure a{
+    padding: 0;
+}
