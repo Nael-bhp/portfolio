@@ -9,17 +9,24 @@ body {
   background-image : url(bg-198-198.png);
 }
 
+@media (max-width : 1235px){
+  header nav {
+    margin-left: 0%;
+  }
+}
+
 /*------------------------------------------------------*/
 
 header{
     margin: 0;
     padding:0;
+    display: flex;
+    justify-content: end;
   }
 
 header nav{
     height: 100%;
     padding: 0;
-    margin-left: 50%;
     margin-right: 40px;
     border-style: solid;
     border-color : rgb(0, 0, 0);
