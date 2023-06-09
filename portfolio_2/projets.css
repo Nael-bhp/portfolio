@@ -18,13 +18,16 @@ main div div{
 .image_proj{
     margin : auto;
 }
-img{
+.image_proj img{
     width: 300px;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
 }
 
 .projet{
     position: relative;
     flex-basis: 300px;
+    background-color: #dbe4e7;
 }
 
 .badge {
@@ -34,6 +37,7 @@ img{
     border : 1px solid blue;
     background-color: rgb(255, 255, 255);
     border-radius: 2px;
+    padding: 1em 1em 1em 1em;
 }
 
 .projet p{
@@ -46,4 +50,8 @@ img{
 
 figure a{
     padding: 0;
+}
+
+.image_proj img:hover{
+    transform: scale(1.1);
 }
